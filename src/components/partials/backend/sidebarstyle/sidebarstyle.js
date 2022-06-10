@@ -123,7 +123,7 @@ const SidebarStyle = (props) => {
                             </Accordion.Collapse>
                         </li>
                         <li className={activeMenu === '1' ? 'active' : ''}>
-                            <Accordion.Toggle as={Button} href="#" eventKey="1" variant=" collapsed" data-toggle="collapse" aria-expanded="false"><i className="las la-film"></i><span>Movie</span><i className="ri-arrow-right-s-line iq-arrow-right"></i></Accordion.Toggle>
+                            <Accordion.Toggle as={Button} href="#" eventKey="1" variant=" collapsed" data-toggle="collapse" aria-expanded="false"><i className="las la-film"></i><span>Sermon</span><i className="ri-arrow-right-s-line iq-arrow-right"></i></Accordion.Toggle>
                             <Accordion.Collapse  className="submenu" eventKey="1">
                             <ul id="movie" className="iq-submenu" data-parent="#iq-sidebar-toggle">
                                 <li className={`${location.pathname === '/add-movie' ? 'active' : ''} `}><Link to="/add-movie"><i className="las la-user-plus"></i>Add Movie</Link></li>
@@ -133,7 +133,7 @@ const SidebarStyle = (props) => {
                         </li>
                         <li className={activeMenu === '2' ? 'active' : ''}>
                             <Accordion.Toggle as={Button} href="#" eventKey="2" variant=" collapsed" data-toggle="collapse" aria-expanded="false"><i
-                                className="las la-film"></i><span>Show</span><i
+                                className="las la-film"></i><span>Series</span><i
                                 className="ri-arrow-right-s-line iq-arrow-right"></i>
                             </Accordion.Toggle>
                             <Accordion.Collapse  className="submenu" eventKey="2">
